@@ -8,7 +8,7 @@ const movie_router = require("./Router/movieRouter");
 
 const app = express();
 app.use(cors());
-app.use(helmet());
+app.use(helmet())
 
 
 
